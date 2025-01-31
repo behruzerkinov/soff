@@ -1,40 +1,82 @@
-# Open Banking Front-End Project
+# Soff
 
-This repository contains the front-end code for the **Open Banking** platform, designed as a unified user interface for banking services. It provides users with a seamless experience for managing their financial activities, whether on the web or mobile.
+This project is a web application built using [Vite](https://vitejs.dev/) and [React](https://reactjs.org/). It incorporates [Tailwind CSS](https://tailwindcss.com/) for styling, providing a modern and efficient development experience.
 
-## Features
+## Getting Started
 
--   Unified interface for multiple banking services.
--   Simplified access to internet banking via a single web application.
--   Contract verification before agreement finalization.
--   Access to financial data such as currency exchange rates, interest rates, and more.
--   Mobile application for banking services from anywhere.
--   Key functionalities:
-    -   Payment confirmation and tracking.
-    -   Online loan application.
-    -   Transaction history.
-    -   Corporate card management.
+### Prerequisites
 
-## Technologies Used
+Ensure you have [Node.js](https://nodejs.org/) installed on your system.
 
--   **Frontend**: HTML, CSS, JavaScript, React.js.
--   **Styling**: Responsive design with CSS or libraries like TailwindCSS.
--   **Integration**: Placeholder for any API connections.
-
-## Screenshots
-
-### Web Application
-
-![Web Application Screenshot](path-to-web-screenshot)
-
-### Mobile Application
-
-![Mobile Application Screenshot](path-to-mobile-screenshot)
-
-## Installation
+### Installation
 
 1. Clone the repository:
+
     ```bash
-    git clone https://github.com/your-username/open-banking-frontend.git
-    cd open-banking-frontend
+    git clone <repository-url>
     ```
+
+2. Navigate into the project directory:
+
+    ```bash
+    cd soff
+    ```
+
+3. Install the dependencies:
+    ```bash
+    npm install
+    ```
+
+### Development
+
+To start the development server, run:
+
+```bash
+npm run dev
+```
+
+### Build
+
+To build the project for production, run:
+
+```bash
+npm run build
+```
+
+### Preview
+
+To preview the production build, run:
+
+```bash
+npm run preview
+```
+
+### Linting
+
+To lint the project using ESLint, run:
+
+```bash
+npm run lint
+```
+
+## Project Structure
+
+-   `src/`: Contains the source code of the application.
+-   `index.html`: The main HTML file.
+-   `package.json`: Contains project metadata and scripts.
+
+## Dependencies
+
+-   React: ^18.3.1
+-   React-DOM: ^18.3.1
+-   Tailwind CSS: ^4.0.0
+
+## Development Dependencies
+
+-   Vite: ^6.0.5
+-   ESLint: ^9.17.0
+-   ESLint plugins for React and Hooks
+
+## License
+
+This project is licensed under the MIT License.
