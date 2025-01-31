@@ -6,7 +6,7 @@ This project is a web application built using [Vite](https://vitejs.dev/) and [R
 
 ### Prerequisites
 
-Ensure you have [Node.js](https://nodejs.org/) installed on your system.
+Ensure you have [Bun](https://bun.sh/) installed on your system.
 
 ### Installation
 
@@ -24,7 +24,7 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your system.
 
 3. Install the dependencies:
     ```bash
-    npm install
+    bun install
     ```
 
 ### Development
@@ -32,15 +32,15 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your system.
 To start the development server, run:
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 ### Build
 
-To build the project for production, run:
+To build, run:
 
 ```bash
-npm run build
+bun run build
 ```
 
 ### Preview
@@ -48,7 +48,7 @@ npm run build
 To preview the production build, run:
 
 ```bash
-npm run preview
+bun preview
 ```
 
 ### Linting
@@ -56,27 +56,27 @@ npm run preview
 To lint the project using ESLint, run:
 
 ```bash
-npm run lint
+bun run lint
 ```
 
-## Project Structure
+### Project Structure
 
--   `src/`: Contains the source code of the application.
--   `index.html`: The main HTML file.
--   `package.json`: Contains project metadata and scripts.
+src/: Contains the source code of the application.
+index.html: The main HTML file.
+package.json: Contains project metadata and scripts.
 
-## Dependencies
+### Dependencies
 
--   React: ^18.3.1
--   React-DOM: ^18.3.1
--   Tailwind CSS: ^4.0.0
+React: ^18.3.1
+React-DOM: ^18.3.1
+Tailwind CSS: ^4.0.0
 
-## Development Dependencies
+### Development Dependencies
 
--   Vite: ^6.0.5
--   ESLint: ^9.17.0
--   ESLint plugins for React and Hooks
+Vite: ^6.0.5
+ESLint: ^9.17.0
+ESLint plugins for React and Hooks
 
-## License
+### License
 
 This project is licensed under the MIT License.
