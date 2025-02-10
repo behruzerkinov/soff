@@ -2,8 +2,8 @@ import bannerImg from "../assets/bannerImg.png";
 
 function Banner() {
 	return (
-		<div className="bg-gray-200">
-			<article>
+		<div className="bg-gray-200 flex flex-col items-center">
+			<article className="py-8">
 				<img
 					src={bannerImg}
 					alt="website loaded open bank banner image"
