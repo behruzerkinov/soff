@@ -1,13 +1,13 @@
-import Navbar from "./pages/Navbar";
-import Banner from "./pages/Banner";
-import WebApp from "./pages/WebApp";
-import MobileApp from "./pages/MobileApp";
+import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import WebApp from "./sections/WebApp";
+import MobileApp from "./sections/MobileApp";
 import About from "./pages/About";
-import Footer from "./pages/Footer";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
-		<div>
+		<div style={{ fontFamily: "Manrope" }}>
 			<Navbar />
 			<Banner />
 			<WebApp />
