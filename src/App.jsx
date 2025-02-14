@@ -18,4 +18,8 @@ function App() {
 	);
 }
 
+// TODO
+// 1. pixel perfect needed
+// 2. href nav link ulash
+
 export default App;

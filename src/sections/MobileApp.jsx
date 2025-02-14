@@ -3,7 +3,7 @@ import MobileCards from "../components/mobileCards";
 
 function MobileApp() {
 	return (
-		<div className="pt-47">
+		<div className="pt-47 pb-12 bg-[#eeeeee]">
 			<article className="pl-63 pt-7">
 				<p className="text-gray-800 font-bold text-[30px] leading-10">
 					Dunyoning istalgan nuqtasidan bank xizmatlaridan <br />{" "}

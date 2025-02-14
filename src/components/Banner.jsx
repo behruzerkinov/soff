@@ -15,14 +15,14 @@ function Banner() {
 					foydalanuvchi interfeysi
 				</p>
 				<h1 className="text-gray-600 text-[25px] pt-4 tracking-[.2px] leading-10">
-					Open Banking – bu yagona ruxsat nuqtasi orqali har xil
+					Open Banking - bu yagona ruxsat nuqtasi orqali har xil
 					banklarning xizmatlaridan foydalanish imkonini taqdim etgan
 					holda, yuridik shaxslar va yakka tartibdagi tadbirkorlarga
-					bank xizmatlarini masofadan koʻrsatishga moʻljallangan
+					bank xizmatlarini masofadan ko'rsatishga mo'ljallangan
 					omnikanal platforma.
 				</h1>
 			</article>
-			
+
 		</div>
 	);
 }

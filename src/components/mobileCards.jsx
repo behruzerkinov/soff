@@ -7,7 +7,7 @@ function mobileCards() {
 	const cards = [
 		{
 			imgUrl: card1,
-			title: "To'lovni tasdiqlash",
+			title: `To'lovni tasdiqlash`,
 			text: "To'lov topshiriqnomasini tezkor tasdiqlash yoki rad etish",
 		},
 		{
@@ -28,15 +28,19 @@ function mobileCards() {
 	];
 
 	return (
-		<div>
+		<div className="px-60 pt-20 grid grid-cols-2">
 			{cards.map((card) => {
-				<div>
-					<img src={card.imgUrl} alt={card.title + " logo"} />
-					<p>{card.title}</p>
-				</div>;
-				<div>
-					<p>{card.text}</p>
-				</div>;
+				return (
+					<div key={card.title} className="pt-3 pl-4 pb-12">
+						<div className="flex items-center">
+							<img src={card.imgUrl} alt={card.title + " logo"} className="mr-4" />
+							<p className="text-[25px] font-bold w-35 leading-8">{card.title}</p>
+						</div>
+						<div>
+							<p className="text-[25px] pr-10 pt-4 text-gray-600 w-[95%] leading-10">{card.text}</p>
+						</div>
+					</div>
+				);
 			})}
 		</div>
 	);
